@@ -39,6 +39,13 @@ Responsive Styles
     .testimonial {
         margin: 0 auto;
     }
+    .hero-body {
+        .title {
+            &.is-bold {
+                word-spacing: 100vw;
+            }
+        }
+    }
 }
 
 
@@ -75,6 +82,13 @@ Responsive Styles
         text-align: center !important;
         .divider {
             margin: 0 auto !important;
+        }
+    }
+    .hero-body {
+        .title {
+            &.is-bold {
+                word-spacing: 100vw;
+            }
         }
     }
 }

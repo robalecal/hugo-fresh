@@ -82,4 +82,9 @@ img.pushed-image {
             font-weight: 400;
         }
     }
+    // Firefox icon fix (https://github.com/StefMa/hugo-fresh/issues/98)
+    img {
+        height: 100px;
+        width: 100px;
+    }
 }
