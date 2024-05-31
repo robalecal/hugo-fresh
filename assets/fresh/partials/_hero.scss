@@ -13,6 +13,9 @@ Hero styles
             font-weight: 700;
             word-spacing: -0.7rem;
         }
+        span {
+            display: inline-block;
+        }
     }
     .subtitle {
         &.is-muted {

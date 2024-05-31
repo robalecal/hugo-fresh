@@ -41,7 +41,7 @@ footer.footer-dark {
             }
         }
     }
-    .footer-copyright h3 {
+    .footer-copyright {
         font-weight:500;
         font-size: 1.2rem;
         text-transform: capitalize;
@@ -55,6 +55,9 @@ footer.footer-dark {
         :hover {
             transition: all 0.5s;
             color: $white;
+        }
+        span {
+            display: inline-block;
         }
     }
     .footer-attributes {
